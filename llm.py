@@ -1,7 +1,7 @@
 import google.generativeai as genai
 
 # Configure your API Key directly
-genai.configure(api_key="AIzaSyBkrfIm4Ohy45F8ozkaA2Un9D5DUFYsTJw")
+genai.configure(api_key="YOUR_API_KEY")
 
 model = genai.GenerativeModel("gemini-2.5-flash")
 
@@ -47,3 +47,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
